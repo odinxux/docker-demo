@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World! Its ODINUX test tag');
+  res.send('Hello World! Its ODINUX V6.1 16.3.22 13:57');
 });
 
 var server = app.listen(3000, function () {
